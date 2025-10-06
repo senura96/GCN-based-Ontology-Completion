@@ -1,6 +1,6 @@
 from sklearn.decomposition import PCA
-from word_embedding import word_embedding
-from utils import _read_dictionary, _read_triplets, read_dictionary
+from ..shared.word_embedding import word_embedding
+from ..shared.utils import _read_dictionary, _read_triplets, read_dictionary
 import os
 import numpy as np
 import csv

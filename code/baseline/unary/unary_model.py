@@ -1,4 +1,4 @@
-from student_t import *
+from ..shared.student_t import *
 import numpy as np
 from scipy.optimize import minimize_scalar
 

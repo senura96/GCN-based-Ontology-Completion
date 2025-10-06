@@ -1,8 +1,8 @@
 import warnings
-from binary_model import *
+from .binary_model import *
 import random
-from data_preprocessing_bi import train_test_triples
-from utils import _select_threshold, find_rules_bt, metrics
+from .data_preprocessing_bi import train_test_triples
+from ..shared.utils import _select_threshold, find_rules_bt, metrics
 import os
 
 warnings.filterwarnings('ignore')

@@ -1,9 +1,9 @@
-from unary_model import *
+from .unary_model import *
 import warnings
-from student_t import *
+from ..shared.student_t import *
 import random
-from data_preprocessing_uni import train_test_idx
-from utils import _select_threshold, select_threshold, find_rules_ut, metrics
+from .data_preprocessing_uni import train_test_idx
+from ..shared.utils import _select_threshold, select_threshold, find_rules_ut, metrics
 import os
 warnings.filterwarnings('ignore')
 random.seed(123)

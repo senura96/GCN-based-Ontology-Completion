@@ -2,10 +2,10 @@ import numpy as np
 import pandas as pd
 import scipy.sparse as sp
 from sklearn.decomposition import PCA
-from word_embedding import word_embedding
+from ..shared.word_embedding import word_embedding
 import os
 import csv
-from utils import _read_dictionary
+from ..shared.utils import _read_dictionary
 
 def train_test_idx(path, fold, ftype):
     train_path = path + 'train/s' + str(fold + 1)

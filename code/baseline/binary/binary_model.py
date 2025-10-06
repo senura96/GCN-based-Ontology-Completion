@@ -1,5 +1,5 @@
 from sklearn.preprocessing import label_binarize
-from student_t import *
+from ..shared.student_t import *
 from scipy.optimize import minimize_scalar
 
 def normalize(x):
