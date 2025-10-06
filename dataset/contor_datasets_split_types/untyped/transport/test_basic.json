@@ -1,0 +1,170 @@
+{"v_sub_concept": "head end car", "v_super_concept": "railcar", "label": 1, "rule": "body=transport.HeadEndCar, head=transport.Railcar"}
+{"v_sub_concept": "rolling stock", "v_super_concept": "railway vehicle", "label": 1, "rule": "body=transport.RollingStock, head=transport.RailwayVehicle"}
+{"v_sub_concept": "commercial shipping", "v_super_concept": "shipping", "label": 1, "rule": "body=transport.CommercialShipping, head=transport.Shipping"}
+{"v_sub_concept": "dredger", "v_super_concept": "ship", "label": 1, "rule": "body=transport.Dredger, head=Mid-level-ontology.Ship"}
+{"v_sub_concept": "full size van", "v_super_concept": "automobile", "label": 1, "rule": "body=transport.FullSizeVan, head=Mid-level-ontology.Automobile"}
+{"v_sub_concept": "ship compartment", "v_super_concept": "artifact", "label": 1, "rule": "body=transport.ShipCompartment, head=SUMO.Artifact"}
+{"v_sub_concept": "locomotive", "v_super_concept": "self powered vehicle", "label": 1, "rule": "body=transport.Locomotive, head=transport.SelfPoweredVehicle"}
+{"v_sub_concept": "intermodal transportation", "v_super_concept": "transportation", "label": 1, "rule": "body=transport.IntermodalTransportation, head=SUMO.Transportation"}
+{"v_sub_concept": "fixed bridge", "v_super_concept": "bridge", "label": 1, "rule": "body=transport.FixedBridge, head=Mid-level-ontology.Bridge"}
+{"v_sub_concept": "roadway", "v_super_concept": "land transitway", "label": 1, "rule": "body=SUMO.Roadway, head=SUMO.LandTransitway"}
+{"v_sub_concept": "canal", "v_super_concept": "waterway", "label": 1, "rule": "body=Mid-level-ontology.Canal, head=Mid-level-ontology.Waterway"}
+{"v_sub_concept": "user powered vehicle", "v_super_concept": "user powered device", "label": 1, "rule": "body=transport.UserPoweredVehicle, head=Mid-level-ontology.UserPoweredDevice"}
+{"v_sub_concept": "dining car", "v_super_concept": "railcar", "label": 1, "rule": "body=transport.DiningCar, head=transport.Railcar"}
+{"v_sub_concept": "airport by runway surface", "v_super_concept": "airport classification", "label": 1, "rule": "body=transport.AirportByRunwaySurface, head=transport.AirportClassification"}
+{"v_sub_concept": "tugboat", "v_super_concept": "displacement hull watercraft", "label": 1, "rule": "body=transport.Tugboat, head=transport.DisplacementHullWatercraft"}
+{"v_sub_concept": "motorcycle", "v_super_concept": "self powered road vehicle", "label": 1, "rule": "body=transport.Motorcycle, head=transport.SelfPoweredRoadVehicle"}
+{"v_sub_concept": "combination ore and oil carrier ship", "v_super_concept": "combination carrier ship", "label": 1, "rule": "body=transport.CombinationOreAndOilCarrierShip, head=transport.CombinationCarrierShip"}
+{"v_sub_concept": "flight schedule", "v_super_concept": "transportation schedule", "label": 1, "rule": "body=transport.FlightSchedule, head=transport.TransportationSchedule"}
+{"v_sub_concept": "train assembly", "v_super_concept": "making", "label": 1, "rule": "body=transport.TrainAssembly, head=SUMO.Making"}
+{"v_sub_concept": "trailer", "v_super_concept": "road vehicle", "label": 1, "rule": "body=Mid-level-ontology.Trailer, head=Mid-level-ontology.RoadVehicle"}
+{"v_sub_concept": "sleeper railcar", "v_super_concept": "railcar", "label": 1, "rule": "body=transport.SleeperRailcar, head=transport.Railcar"}
+{"v_sub_concept": "f h w a vehicle class13", "v_super_concept": "tractor trailer", "label": 1, "rule": "body=transport.FHWAVehicleClass13, head=transport.TractorTrailer"}
+{"v_sub_concept": "train station", "v_super_concept": "transit terminal", "label": 1, "rule": "body=transport.TrainStation, head=Mid-level-ontology.TransitTerminal"}
+{"v_sub_concept": "traffic light", "v_super_concept": "traffic signal", "label": 1, "rule": "body=transport.TrafficLight, head=transport.TrafficSignal"}
+{"v_sub_concept": "f h w a vehicle class11", "v_super_concept": "tractor trailer", "label": 1, "rule": "body=transport.FHWAVehicleClass11, head=transport.TractorTrailer"}
+{"v_sub_concept": "train", "v_super_concept": "collection", "label": 1, "rule": "body=Mid-level-ontology.Train, head=SUMO.Collection"}
+{"v_sub_concept": "ship berth", "v_super_concept": "water area", "label": 1, "rule": "body=transport.ShipBerth, head=SUMO.WaterArea"}
+{"v_sub_concept": "trail", "v_super_concept": "land transitway", "label": 1, "rule": "body=transport.Trail, head=SUMO.LandTransitway"}
+{"v_sub_concept": "bus", "v_super_concept": "f h w a vehicle class4", "label": 1, "rule": "body=transport.Bus, head=transport.FHWAVehicleClass4"}
+{"v_sub_concept": "transitway", "v_super_concept": "region", "label": 1, "rule": "body=SUMO.Transitway, head=SUMO.Region"}
+{"v_sub_concept": "portable bridge", "v_super_concept": "bridge", "label": 1, "rule": "body=transport.PortableBridge, head=Mid-level-ontology.Bridge"}
+{"v_sub_concept": "vehicle wheel", "v_super_concept": "wheel", "label": 1, "rule": "body=transport.VehicleWheel, head=Mid-level-ontology.Wheel"}
+{"v_sub_concept": "navigation buoy", "v_super_concept": "aid to navigation", "label": 1, "rule": "body=transport.NavigationBuoy, head=transport.AidToNavigation"}
+{"v_sub_concept": "pusher tug", "v_super_concept": "tugboat", "label": 1, "rule": "body=transport.PusherTug, head=transport.Tugboat"}
+{"v_sub_concept": "transit terminal", "v_super_concept": "stationary artifact", "label": 1, "rule": "body=Mid-level-ontology.TransitTerminal, head=SUMO.StationaryArtifact"}
+{"v_sub_concept": "transit route", "v_super_concept": "transitway", "label": 1, "rule": "body=transport.TransitRoute, head=SUMO.Transitway"}
+{"v_sub_concept": "air traffic control tower", "v_super_concept": "air traffic control center", "label": 1, "rule": "body=transport.AirTrafficControlTower, head=transport.AirTrafficControlCenter"}
+{"v_sub_concept": "sport utility vehicle", "v_super_concept": "automobile", "label": 1, "rule": "body=transport.SportUtilityVehicle, head=Mid-level-ontology.Automobile"}
+{"v_sub_concept": "glider airplane", "v_super_concept": "wind powered device", "label": 1, "rule": "body=transport.GliderAirplane, head=transport.WindPoweredDevice"}
+{"v_sub_concept": "unpaved runway", "v_super_concept": "runway", "label": 1, "rule": "body=transport.UnpavedRunway, head=Mid-level-ontology.Runway"}
+{"v_sub_concept": "tractor trailer", "v_super_concept": "road vehicle", "label": 1, "rule": "body=transport.TractorTrailer, head=Mid-level-ontology.RoadVehicle"}
+{"v_sub_concept": "human habitation artifact", "v_super_concept": "artifact", "label": 1, "rule": "body=transport.HumanHabitationArtifact, head=SUMO.Artifact"}
+{"v_sub_concept": "airport classification", "v_super_concept": "attribute", "label": 1, "rule": "body=transport.AirportClassification, head=SUMO.Attribute"}
+{"v_sub_concept": "cab car", "v_super_concept": "self powered vehicle", "label": 1, "rule": "body=transport.CabCar, head=transport.SelfPoweredVehicle"}
+{"v_sub_concept": "emergency road vehicle", "v_super_concept": "self powered road vehicle", "label": 1, "rule": "body=transport.EmergencyRoadVehicle, head=transport.SelfPoweredRoadVehicle"}
+{"v_sub_concept": "cubic foot", "v_super_concept": "volume measure", "label": 1, "rule": "body=Mid-level-ontology.CubicFoot, head=SUMO.VolumeMeasure"}
+{"v_sub_concept": "self powered device", "v_super_concept": "transportation device", "label": 1, "rule": "body=Mid-level-ontology.SelfPoweredDevice, head=SUMO.TransportationDevice"}
+{"v_sub_concept": "f h w a vehicle class6", "v_super_concept": "truck", "label": 1, "rule": "body=transport.FHWAVehicleClass6, head=Mid-level-ontology.Truck"}
+{"v_sub_concept": "taking off", "v_super_concept": "intermodal transportation", "label": 1, "rule": "body=Mid-level-ontology.TakingOff, head=transport.IntermodalTransportation"}
+{"v_sub_concept": "cargo ship", "v_super_concept": "ship", "label": 1, "rule": "body=transport.CargoShip, head=Mid-level-ontology.Ship"}
+{"v_sub_concept": "coach railcar", "v_super_concept": "passenger railway car", "label": 1, "rule": "body=transport.CoachRailcar, head=transport.PassengerRailwayCar"}
+{"v_sub_concept": "vehicle wheel", "v_super_concept": "device", "label": 1, "rule": "body=transport.VehicleWheel, head=SUMO.Device"}
+{"v_sub_concept": "deck crane", "v_super_concept": "crane", "label": 1, "rule": "body=transport.DeckCrane, head=Mid-level-ontology.Crane"}
+{"v_sub_concept": "electrified railway car", "v_super_concept": "electric device", "label": 1, "rule": "body=transport.ElectrifiedRailwayCar, head=Mid-level-ontology.ElectricDevice"}
+{"v_sub_concept": "military watercraft", "v_super_concept": "watercraft", "label": 1, "rule": "body=Mid-level-ontology.MilitaryWatercraft, head=Mid-level-ontology.Watercraft"}
+{"v_sub_concept": "cement carrier ship", "v_super_concept": "dry bulk carrier ship", "label": 1, "rule": "body=transport.CementCarrierShip, head=transport.DryBulkCarrierShip"}
+{"v_sub_concept": "canal system", "v_super_concept": "water transportation system", "label": 1, "rule": "body=transport.CanalSystem, head=transport.WaterTransportationSystem"}
+{"v_sub_concept": "crew list", "v_super_concept": "content bearing object", "label": 1, "rule": "body=transport.CrewList, head=SUMO.ContentBearingObject"}
+{"v_sub_concept": "canoe", "v_super_concept": "watercraft", "label": 1, "rule": "body=transport.Canoe, head=Mid-level-ontology.Watercraft"}
+{"v_sub_concept": "paved runway", "v_super_concept": "runway", "label": 1, "rule": "body=transport.PavedRunway, head=Mid-level-ontology.Runway"}
+{"v_sub_concept": "legal charge", "v_super_concept": "regulatory process", "label": 1, "rule": "body=Mid-level-ontology.LegalCharge, head=SUMO.RegulatoryProcess"}
+{"v_sub_concept": "fishing trawler", "v_super_concept": "fishing vessel", "label": 1, "rule": "body=transport.FishingTrawler, head=transport.FishingVessel"}
+{"v_sub_concept": "multiple track railway", "v_super_concept": "railway", "label": 1, "rule": "body=transport.MultipleTrackRailway, head=Mid-level-ontology.Railway"}
+{"v_sub_concept": "radio navigation beacon", "v_super_concept": "aid to navigation", "label": 1, "rule": "body=transport.RadioNavigationBeacon, head=transport.AidToNavigation"}
+{"v_sub_concept": "etiologic agent", "v_super_concept": "organic object", "label": 1, "rule": "body=transport.EtiologicAgent, head=SUMO.OrganicObject"}
+{"v_sub_concept": "partial container ship", "v_super_concept": "cargo ship", "label": 1, "rule": "body=transport.PartialContainerShip, head=transport.CargoShip"}
+{"v_sub_concept": "passenger and landing craft", "v_super_concept": "passenger and cargo ship", "label": 1, "rule": "body=transport.PassengerAndLandingCraft, head=transport.PassengerAndCargoShip"}
+{"v_sub_concept": "user powered vehicle", "v_super_concept": "vehicle", "label": 1, "rule": "body=transport.UserPoweredVehicle, head=SUMO.Vehicle"}
+{"v_sub_concept": "railway junction", "v_super_concept": "railway", "label": 1, "rule": "body=transport.RailwayJunction, head=Mid-level-ontology.Railway"}
+{"v_sub_concept": "animal powered vehicle", "v_super_concept": "animal powered device", "label": 1, "rule": "body=transport.AnimalPoweredVehicle, head=Mid-level-ontology.AnimalPoweredDevice"}
+{"v_sub_concept": "fish factory ship", "v_super_concept": "fishing vessel", "label": 1, "rule": "body=transport.FishFactoryShip, head=transport.FishingVessel"}
+{"v_sub_concept": "motorcycle", "v_super_concept": "road vehicle", "label": 1, "rule": "body=transport.Motorcycle, head=Mid-level-ontology.RoadVehicle"}
+{"v_sub_concept": "vehicle", "v_super_concept": "transportation device", "label": 1, "rule": "body=SUMO.Vehicle, head=SUMO.TransportationDevice"}
+{"v_sub_concept": "flatcar", "v_super_concept": "freight car", "label": 1, "rule": "body=transport.Flatcar, head=transport.FreightCar"}
+{"v_sub_concept": "flat rack container", "v_super_concept": "cargo container", "label": 1, "rule": "body=transport.FlatRackContainer, head=transport.CargoContainer"}
+{"v_sub_concept": "mode of transit", "v_super_concept": "set or class", "label": 1, "rule": "body=transport.ModeOfTransit, head=SUMO.SetOrClass"}
+{"v_sub_concept": "partial container ship", "v_super_concept": "freighter", "label": 1, "rule": "body=transport.PartialContainerShip, head=transport.Freighter"}
+{"v_sub_concept": "f h w a vehicle class7", "v_super_concept": "truck", "label": 1, "rule": "body=transport.FHWAVehicleClass7, head=Mid-level-ontology.Truck"}
+{"v_sub_concept": "freight car", "v_super_concept": "railcar", "label": 1, "rule": "body=transport.FreightCar, head=transport.Railcar"}
+{"v_sub_concept": "passenger railway car", "v_super_concept": "rolling stock", "label": 1, "rule": "body=transport.PassengerRailwayCar, head=transport.RollingStock"}
+{"v_sub_concept": "transportation system", "v_super_concept": "object", "label": 1, "rule": "body=transport.TransportationSystem, head=SUMO.Object"}
+{"v_sub_concept": "certificate of registry", "v_super_concept": "content bearing object", "label": 1, "rule": "body=transport.CertificateOfRegistry, head=SUMO.ContentBearingObject"}
+{"v_sub_concept": "rocket engine", "v_super_concept": "engine", "label": 1, "rule": "body=transport.RocketEngine, head=Mid-level-ontology.Engine"}
+{"v_sub_concept": "rotary dump car", "v_super_concept": "gondola railcar", "label": 1, "rule": "body=transport.RotaryDumpCar, head=transport.GondolaRailcar"}
+{"v_sub_concept": "portable bridge", "v_super_concept": "roadway", "label": 1, "rule": "body=transport.PortableBridge, head=SUMO.Roadway"}
+{"v_sub_concept": "f h w a vehicle class5", "v_super_concept": "truck", "label": 1, "rule": "body=transport.FHWAVehicleClass5, head=Mid-level-ontology.Truck"}
+{"v_sub_concept": "device state attribute", "v_super_concept": "attribute", "label": 1, "rule": "body=Mid-level-ontology.DeviceStateAttribute, head=SUMO.Attribute"}
+{"v_sub_concept": "canal structure", "v_super_concept": "stationary artifact", "label": 1, "rule": "body=transport.CanalStructure, head=SUMO.StationaryArtifact"}
+{"v_sub_concept": "fire boat", "v_super_concept": "emergency vehicle", "label": 1, "rule": "body=transport.FireBoat, head=transport.EmergencyVehicle"}
+{"v_sub_concept": "head end car", "v_super_concept": "private railcar", "label": 0, "rule": "body=transport.HeadEndCar, head=transport.PrivateRailcar"}
+{"v_sub_concept": "multifunctional large load carrier ship", "v_super_concept": "railway vehicle", "label": 0, "rule": "body=transport.MultifunctionalLargeLoadCarrierShip, head=transport.RailwayVehicle"}
+{"v_sub_concept": "shipping channel", "v_super_concept": "shipping", "label": 0, "rule": "body=transport.ShippingChannel, head=transport.Shipping"}
+{"v_sub_concept": "fishing vessel", "v_super_concept": "ship", "label": 0, "rule": "body=transport.FishingVessel, head=Mid-level-ontology.Ship"}
+{"v_sub_concept": "multifunctional large load carrier ship", "v_super_concept": "automobile", "label": 0, "rule": "body=transport.MultifunctionalLargeLoadCarrierShip, head=Mid-level-ontology.Automobile"}
+{"v_sub_concept": "ship compartment", "v_super_concept": "stationary artifact", "label": 0, "rule": "body=transport.ShipCompartment, head=SUMO.StationaryArtifact"}
+{"v_sub_concept": "locomotive", "v_super_concept": "user powered vehicle", "label": 0, "rule": "body=transport.Locomotive, head=transport.UserPoweredVehicle"}
+{"v_sub_concept": "rail transportation system", "v_super_concept": "transportation", "label": 0, "rule": "body=transport.RailTransportationSystem, head=SUMO.Transportation"}
+{"v_sub_concept": "fixed bridge", "v_super_concept": "railroad bridge", "label": 0, "rule": "body=transport.FixedBridge, head=transport.RailroadBridge"}
+{"v_sub_concept": "roadway", "v_super_concept": "water transportation system", "label": 0, "rule": "body=SUMO.Roadway, head=transport.WaterTransportationSystem"}
+{"v_sub_concept": "user powered vehicle", "v_super_concept": "self powered device", "label": 0, "rule": "body=transport.UserPoweredVehicle, head=Mid-level-ontology.SelfPoweredDevice"}
+{"v_sub_concept": "airport by runway surface", "v_super_concept": "c i a airport length classification", "label": 0, "rule": "body=transport.AirportByRunwaySurface, head=transport.CIAAirportLengthClassification"}
+{"v_sub_concept": "barge", "v_super_concept": "displacement hull watercraft", "label": 0, "rule": "body=transport.Barge, head=transport.DisplacementHullWatercraft"}
+{"v_sub_concept": "motorcycle", "v_super_concept": "road transportation system", "label": 0, "rule": "body=transport.Motorcycle, head=transport.RoadTransportationSystem"}
+{"v_sub_concept": "combination ore and oil carrier ship", "v_super_concept": "railcar carrier ship", "label": 0, "rule": "body=transport.CombinationOreAndOilCarrierShip, head=transport.RailcarCarrierShip"}
+{"v_sub_concept": "air traffic control radar room", "v_super_concept": "transportation schedule", "label": 0, "rule": "body=transport.AirTrafficControlRadarRoom, head=transport.TransportationSchedule"}
+{"v_sub_concept": "train", "v_super_concept": "making", "label": 0, "rule": "body=Mid-level-ontology.Train, head=SUMO.Making"}
+{"v_sub_concept": "trailer", "v_super_concept": "railway vehicle", "label": 0, "rule": "body=Mid-level-ontology.Trailer, head=transport.RailwayVehicle"}
+{"v_sub_concept": "f h w a vehicle class13", "v_super_concept": "trailer", "label": 0, "rule": "body=transport.FHWAVehicleClass13, head=Mid-level-ontology.Trailer"}
+{"v_sub_concept": "train station", "v_super_concept": "local transit system", "label": 0, "rule": "body=transport.TrainStation, head=transport.LocalTransitSystem"}
+{"v_sub_concept": "navigation light", "v_super_concept": "traffic signal", "label": 0, "rule": "body=transport.NavigationLight, head=transport.TrafficSignal"}
+{"v_sub_concept": "f h w a vehicle class11", "v_super_concept": "trailer", "label": 0, "rule": "body=transport.FHWAVehicleClass11, head=Mid-level-ontology.Trailer"}
+{"v_sub_concept": "train station", "v_super_concept": "collection", "label": 0, "rule": "body=transport.TrainStation, head=SUMO.Collection"}
+{"v_sub_concept": "ship berthing", "v_super_concept": "water area", "label": 0, "rule": "body=transport.ShipBerthing, head=SUMO.WaterArea"}
+{"v_sub_concept": "trail", "v_super_concept": "land vehicle", "label": 0, "rule": "body=transport.Trail, head=Mid-level-ontology.LandVehicle"}
+{"v_sub_concept": "bus", "v_super_concept": "f h w a vehicle class2", "label": 0, "rule": "body=transport.Bus, head=transport.FHWAVehicleClass2"}
+{"v_sub_concept": "transitway state", "v_super_concept": "region", "label": 0, "rule": "body=transport.TransitwayState, head=SUMO.Region"}
+{"v_sub_concept": "car distribution system", "v_super_concept": "wheel", "label": 0, "rule": "body=transport.CarDistributionSystem, head=Mid-level-ontology.Wheel"}
+{"v_sub_concept": "navigation buoy", "v_super_concept": "air traffic control en route center", "label": 0, "rule": "body=transport.NavigationBuoy, head=transport.AirTrafficControlEnRouteCenter"}
+{"v_sub_concept": "specialized tanker ship", "v_super_concept": "tugboat", "label": 0, "rule": "body=transport.SpecializedTankerShip, head=transport.Tugboat"}
+{"v_sub_concept": "transit route", "v_super_concept": "stationary artifact", "label": 0, "rule": "body=transport.TransitRoute, head=SUMO.StationaryArtifact"}
+{"v_sub_concept": "transit route", "v_super_concept": "transitway state", "label": 0, "rule": "body=transport.TransitRoute, head=transport.TransitwayState"}
+{"v_sub_concept": "air traffic control tower", "v_super_concept": "air traffic control tower", "label": 0, "rule": "body=transport.AirTrafficControlTower, head=transport.AirTrafficControlTower"}
+{"v_sub_concept": "car distribution system", "v_super_concept": "automobile", "label": 0, "rule": "body=transport.CarDistributionSystem, head=Mid-level-ontology.Automobile"}
+{"v_sub_concept": "turboprop airplane", "v_super_concept": "wind powered device", "label": 0, "rule": "body=transport.TurbopropAirplane, head=transport.WindPoweredDevice"}
+{"v_sub_concept": "unpaved runway", "v_super_concept": "ramp", "label": 0, "rule": "body=transport.UnpavedRunway, head=Mid-level-ontology.Ramp"}
+{"v_sub_concept": "tractor trailer", "v_super_concept": "road transportation system", "label": 0, "rule": "body=transport.TractorTrailer, head=transport.RoadTransportationSystem"}
+{"v_sub_concept": "human habitation artifact", "v_super_concept": "human habitation artifact", "label": 0, "rule": "body=transport.HumanHabitationArtifact, head=transport.HumanHabitationArtifact"}
+{"v_sub_concept": "airport classification", "v_super_concept": "internal attribute", "label": 0, "rule": "body=transport.AirportClassification, head=SUMO.InternalAttribute"}
+{"v_sub_concept": "cab car", "v_super_concept": "user powered vehicle", "label": 0, "rule": "body=transport.CabCar, head=transport.UserPoweredVehicle"}
+{"v_sub_concept": "emergency road vehicle", "v_super_concept": "road transportation system", "label": 0, "rule": "body=transport.EmergencyRoadVehicle, head=transport.RoadTransportationSystem"}
+{"v_sub_concept": "cubic foot", "v_super_concept": "traffic control process", "label": 0, "rule": "body=Mid-level-ontology.CubicFoot, head=transport.TrafficControlProcess"}
+{"v_sub_concept": "self powered device", "v_super_concept": "device", "label": 0, "rule": "body=Mid-level-ontology.SelfPoweredDevice, head=SUMO.Device"}
+{"v_sub_concept": "f h w a vehicle class6", "v_super_concept": "truck trailer", "label": 0, "rule": "body=transport.FHWAVehicleClass6, head=transport.TruckTrailer"}
+{"v_sub_concept": "roll on roll off cargo ship", "v_super_concept": "intermodal transportation", "label": 0, "rule": "body=transport.RollOnRollOffCargoShip, head=transport.IntermodalTransportation"}
+{"v_sub_concept": "cargo ship", "v_super_concept": "ship compartment", "label": 0, "rule": "body=transport.CargoShip, head=transport.ShipCompartment"}
+{"v_sub_concept": "railcar carrier ship", "v_super_concept": "passenger railway car", "label": 0, "rule": "body=transport.RailcarCarrierShip, head=transport.PassengerRailwayCar"}
+{"v_sub_concept": "vehicle wheel", "v_super_concept": "hoisting device", "label": 0, "rule": "body=transport.VehicleWheel, head=Mid-level-ontology.HoistingDevice"}
+{"v_sub_concept": "ship deck", "v_super_concept": "crane", "label": 0, "rule": "body=transport.ShipDeck, head=Mid-level-ontology.Crane"}
+{"v_sub_concept": "freight car", "v_super_concept": "electric device", "label": 0, "rule": "body=transport.FreightCar, head=Mid-level-ontology.ElectricDevice"}
+{"v_sub_concept": "cement carrier ship", "v_super_concept": "livestock carrier ship", "label": 0, "rule": "body=transport.CementCarrierShip, head=transport.LivestockCarrierShip"}
+{"v_sub_concept": "canal system", "v_super_concept": "road transportation system", "label": 0, "rule": "body=transport.CanalSystem, head=transport.RoadTransportationSystem"}
+{"v_sub_concept": "ship agent", "v_super_concept": "content bearing object", "label": 0, "rule": "body=transport.ShipAgent, head=SUMO.ContentBearingObject"}
+{"v_sub_concept": "canoe", "v_super_concept": "displacement hull watercraft", "label": 0, "rule": "body=transport.Canoe, head=transport.DisplacementHullWatercraft"}
+{"v_sub_concept": "paved runway", "v_super_concept": "airport by runway surface", "label": 0, "rule": "body=transport.PavedRunway, head=transport.AirportByRunwaySurface"}
+{"v_sub_concept": "legal charge", "v_super_concept": "transportation control device", "label": 0, "rule": "body=Mid-level-ontology.LegalCharge, head=transport.TransportationControlDevice"}
+{"v_sub_concept": "fishing trawler", "v_super_concept": "fish factory ship", "label": 0, "rule": "body=transport.FishingTrawler, head=transport.FishFactoryShip"}
+{"v_sub_concept": "multiple track railway", "v_super_concept": "railroad company", "label": 0, "rule": "body=transport.MultipleTrackRailway, head=Mid-level-ontology.RailroadCompany"}
+{"v_sub_concept": "air traffic control en route center", "v_super_concept": "aid to navigation", "label": 0, "rule": "body=transport.AirTrafficControlEnRouteCenter, head=transport.AidToNavigation"}
+{"v_sub_concept": "etiologic agent", "v_super_concept": "object", "label": 0, "rule": "body=transport.EtiologicAgent, head=SUMO.Object"}
+{"v_sub_concept": "partial container ship", "v_super_concept": "palletized cargo ship", "label": 0, "rule": "body=transport.PartialContainerShip, head=transport.PalletizedCargoShip"}
+{"v_sub_concept": "chemical and petroleum tanker ship", "v_super_concept": "passenger and cargo ship", "label": 0, "rule": "body=transport.ChemicalAndPetroleumTankerShip, head=transport.PassengerAndCargoShip"}
+{"v_sub_concept": "user powered vehicle", "v_super_concept": "vehicle registration", "label": 0, "rule": "body=transport.UserPoweredVehicle, head=transport.VehicleRegistration"}
+{"v_sub_concept": "animal powered vehicle", "v_super_concept": "user powered device", "label": 0, "rule": "body=transport.AnimalPoweredVehicle, head=Mid-level-ontology.UserPoweredDevice"}
+{"v_sub_concept": "fish factory ship", "v_super_concept": "fish carrier ship", "label": 0, "rule": "body=transport.FishFactoryShip, head=transport.FishCarrierShip"}
+{"v_sub_concept": "gallery car", "v_super_concept": "road vehicle", "label": 0, "rule": "body=transport.GalleryCar, head=Mid-level-ontology.RoadVehicle"}
+{"v_sub_concept": "vehicle wheel", "v_super_concept": "transportation device", "label": 0, "rule": "body=transport.VehicleWheel, head=SUMO.TransportationDevice"}
+{"v_sub_concept": "flatcar", "v_super_concept": "passenger railway car", "label": 0, "rule": "body=transport.Flatcar, head=transport.PassengerRailwayCar"}
+{"v_sub_concept": "multifunctional large load carrier ship", "v_super_concept": "cargo container", "label": 0, "rule": "body=transport.MultifunctionalLargeLoadCarrierShip, head=transport.CargoContainer"}
+{"v_sub_concept": "mode of transit", "v_super_concept": "radar or sonar", "label": 0, "rule": "body=transport.ModeOfTransit, head=Mid-level-ontology.RadarOrSonar"}
+{"v_sub_concept": "passenger car", "v_super_concept": "railcar", "label": 0, "rule": "body=transport.PassengerCar, head=transport.Railcar"}
+{"v_sub_concept": "freight car", "v_super_concept": "rolling stock", "label": 0, "rule": "body=transport.FreightCar, head=transport.RollingStock"}
+{"v_sub_concept": "rail transportation system", "v_super_concept": "object", "label": 0, "rule": "body=transport.RailTransportationSystem, head=SUMO.Object"}
+{"v_sub_concept": "certificate of registry", "v_super_concept": "self connected object", "label": 0, "rule": "body=transport.CertificateOfRegistry, head=SUMO.SelfConnectedObject"}
+{"v_sub_concept": "rocket engine", "v_super_concept": "internal combustion engine", "label": 0, "rule": "body=transport.RocketEngine, head=Mid-level-ontology.InternalCombustionEngine"}
+{"v_sub_concept": "gallery car", "v_super_concept": "gondola railcar", "label": 0, "rule": "body=transport.GalleryCar, head=transport.GondolaRailcar"}
+{"v_sub_concept": "portable bridge", "v_super_concept": "road transportation system", "label": 0, "rule": "body=transport.PortableBridge, head=transport.RoadTransportationSystem"}
+{"v_sub_concept": "f h w a vehicle class5", "v_super_concept": "tank car", "label": 0, "rule": "body=transport.FHWAVehicleClass5, head=transport.TankCar"}
+{"v_sub_concept": "device", "v_super_concept": "attribute", "label": 0, "rule": "body=SUMO.Device, head=SUMO.Attribute"}
+{"v_sub_concept": "canal system", "v_super_concept": "stationary artifact", "label": 0, "rule": "body=transport.CanalSystem, head=SUMO.StationaryArtifact"}
+{"v_sub_concept": "fish factory ship", "v_super_concept": "emergency vehicle", "label": 0, "rule": "body=transport.FishFactoryShip, head=transport.EmergencyVehicle"}

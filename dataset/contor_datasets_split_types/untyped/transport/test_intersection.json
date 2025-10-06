@@ -1,0 +1,92 @@
+{"v_sub_concept": "dredger", "v_super_concept": "motor hopper", "label": 0, "rule": "body=transport.Dredger, transport.MotorHopper, head=owl.Bottom"}
+{"v_sub_concept": "crane ship", "v_super_concept": "sludge disposal vessel", "label": 0, "rule": "body=transport.CraneShip, transport.SludgeDisposalVessel, head=owl.Bottom"}
+{"v_sub_concept": "electrified railway car", "v_super_concept": "personal watercraft", "label": 0, "rule": "body=transport.ElectrifiedRailwayCar, transport.PersonalWatercraft, head=owl.Bottom"}
+{"v_sub_concept": "deep draft port city", "v_super_concept": "sea port", "label": 0, "rule": "body=transport.DeepDraftPortCity, transport.SeaPort, head=owl.Bottom"}
+{"v_sub_concept": "ice breaker ship", "v_super_concept": "offshore support ship", "label": 0, "rule": "body=transport.IceBreakerShip, transport.OffshoreSupportShip, head=owl.Bottom"}
+{"v_sub_concept": "cargo manifest", "v_super_concept": "crew list", "label": 0, "rule": "body=transport.CargoManifest, transport.CrewList, head=owl.Bottom"}
+{"v_sub_concept": "crane ship", "v_super_concept": "motor hopper", "label": 0, "rule": "body=transport.CraneShip, transport.MotorHopper, head=owl.Bottom"}
+{"v_sub_concept": "offshore well production ship", "v_super_concept": "sludge disposal vessel", "label": 0, "rule": "body=transport.OffshoreWellProductionShip, transport.SludgeDisposalVessel, head=owl.Bottom"}
+{"v_sub_concept": "pipeline", "v_super_concept": "one way transitway", "label": 0, "rule": "body=Mid-level-ontology.Pipeline, transport.OneWayTransitway, head=owl.Bottom"}
+{"v_sub_concept": "waterway", "v_super_concept": "deep draft water area", "label": 0, "rule": "body=Mid-level-ontology.Waterway, transport.DeepDraftWaterArea, head=owl.Bottom"}
+{"v_sub_concept": "merchant marine ship", "v_super_concept": "research ship", "label": 0, "rule": "body=transport.MerchantMarineShip, transport.ResearchShip, head=owl.Bottom"}
+{"v_sub_concept": "railway", "v_super_concept": "transit terminal", "label": 0, "rule": "body=Mid-level-ontology.Railway, Mid-level-ontology.TransitTerminal, head=owl.Bottom"}
+{"v_sub_concept": "class i i railroad", "v_super_concept": "class i railroad", "label": 0, "rule": "body=transport.ClassIIRailroad, transport.ClassIRailroad, head=owl.Bottom"}
+{"v_sub_concept": "refrigerated cargo ship", "v_super_concept": "roll on roll off cargo ship", "label": 0, "rule": "body=transport.RefrigeratedCargoShip, transport.RollOnRollOffCargoShip, head=owl.Bottom"}
+{"v_sub_concept": "canal lock", "v_super_concept": "canal structure", "label": 0, "rule": "body=transport.CanalLock, transport.CanalStructure, head=owl.Bottom"}
+{"v_sub_concept": "bridge", "v_super_concept": "tunnel", "label": 0, "rule": "body=Mid-level-ontology.Bridge, Mid-level-ontology.Tunnel, head=owl.Bottom"}
+{"v_sub_concept": "drilling ship", "v_super_concept": "ice breaker ship", "label": 0, "rule": "body=transport.DrillingShip, transport.IceBreakerShip, head=owl.Bottom"}
+{"v_sub_concept": "land transitway", "v_super_concept": "air transitway", "label": 0, "rule": "body=SUMO.LandTransitway, transport.AirTransitway, head=owl.Bottom"}
+{"v_sub_concept": "motor hopper", "v_super_concept": "offshore support ship", "label": 0, "rule": "body=transport.MotorHopper, transport.OffshoreSupportShip, head=owl.Bottom"}
+{"v_sub_concept": "automobile", "v_super_concept": "truck", "label": 0, "rule": "body=Mid-level-ontology.Automobile, Mid-level-ontology.Truck, head=owl.Bottom"}
+{"v_sub_concept": "dredger", "v_super_concept": "drilling ship", "label": 0, "rule": "body=transport.Dredger, transport.DrillingShip, head=owl.Bottom"}
+{"v_sub_concept": "animal powered device", "v_super_concept": "hoisting device", "label": 0, "rule": "body=Mid-level-ontology.AnimalPoweredDevice, Mid-level-ontology.HoistingDevice, head=owl.Bottom"}
+{"v_sub_concept": "air transitway", "v_super_concept": "one way transitway", "label": 0, "rule": "body=transport.AirTransitway, transport.OneWayTransitway, head=owl.Bottom"}
+{"v_sub_concept": "canal lock gate", "v_super_concept": "vehicle wheel", "label": 0, "rule": "body=transport.CanalLockGate, transport.VehicleWheel, head=owl.Bottom"}
+{"v_sub_concept": "crane", "v_super_concept": "watercraft", "label": 0, "rule": "body=Mid-level-ontology.Crane, Mid-level-ontology.Watercraft, head=owl.Bottom"}
+{"v_sub_concept": "land transitway", "v_super_concept": "one way transitway", "label": 0, "rule": "body=SUMO.LandTransitway, transport.OneWayTransitway, head=owl.Bottom"}
+{"v_sub_concept": "animal powered device", "v_super_concept": "axle", "label": 0, "rule": "body=Mid-level-ontology.AnimalPoweredDevice, transport.Axle, head=owl.Bottom"}
+{"v_sub_concept": "ice breaker ship", "v_super_concept": "merchant marine ship", "label": 0, "rule": "body=transport.IceBreakerShip, transport.MerchantMarineShip, head=owl.Bottom"}
+{"v_sub_concept": "device state attribute", "v_super_concept": "airport classification", "label": 0, "rule": "body=Mid-level-ontology.DeviceStateAttribute, transport.AirportClassification, head=owl.Bottom"}
+{"v_sub_concept": "flag of convenience register", "v_super_concept": "offshore ship register", "label": 0, "rule": "body=transport.FlagOfConvenienceRegister, transport.OffshoreShipRegister, head=owl.Bottom"}
+{"v_sub_concept": "commercial airport", "v_super_concept": "international airport", "label": 0, "rule": "body=transport.CommercialAirport, transport.InternationalAirport, head=owl.Bottom"}
+{"v_sub_concept": "partial container ship", "v_super_concept": "roll on roll off cargo ship", "label": 0, "rule": "body=transport.PartialContainerShip, transport.RollOnRollOffCargoShip, head=owl.Bottom"}
+{"v_sub_concept": "human habitation artifact", "v_super_concept": "ship deck", "label": 0, "rule": "body=transport.HumanHabitationArtifact, transport.ShipDeck, head=owl.Bottom"}
+{"v_sub_concept": "railroad track", "v_super_concept": "canal lock", "label": 0, "rule": "body=Mid-level-ontology.RailroadTrack, transport.CanalLock, head=owl.Bottom"}
+{"v_sub_concept": "tunnel", "v_super_concept": "single traffic lane", "label": 0, "rule": "body=Mid-level-ontology.Tunnel, transport.SingleTrafficLane, head=owl.Bottom"}
+{"v_sub_concept": "offshore support ship", "v_super_concept": "offshore well production ship", "label": 0, "rule": "body=transport.OffshoreSupportShip, transport.OffshoreWellProductionShip, head=owl.Bottom"}
+{"v_sub_concept": "pipeline", "v_super_concept": "transit route", "label": 0, "rule": "body=Mid-level-ontology.Pipeline, transport.TransitRoute, head=owl.Bottom"}
+{"v_sub_concept": "anchorage", "v_super_concept": "ship berth", "label": 0, "rule": "body=transport.Anchorage, transport.ShipBerth, head=owl.Bottom"}
+{"v_sub_concept": "aid to navigation", "v_super_concept": "vehicle registration", "label": 0, "rule": "body=transport.AidToNavigation, transport.VehicleRegistration, head=owl.Bottom"}
+{"v_sub_concept": "transitway junction", "v_super_concept": "waterway", "label": 0, "rule": "body=Mid-level-ontology.TransitwayJunction, Mid-level-ontology.Waterway, head=owl.Bottom"}
+{"v_sub_concept": "aid to navigation", "v_super_concept": "crew list", "label": 0, "rule": "body=transport.AidToNavigation, transport.CrewList, head=owl.Bottom"}
+{"v_sub_concept": "dromedary container", "v_super_concept": "military van", "label": 0, "rule": "body=transport.DromedaryContainer, transport.MilitaryVan, head=owl.Bottom"}
+{"v_sub_concept": "drilling ship", "v_super_concept": "passenger ship", "label": 0, "rule": "body=transport.DrillingShip, transport.PassengerShip, head=owl.Bottom"}
+{"v_sub_concept": "pipeline", "v_super_concept": "air transitway", "label": 0, "rule": "body=Mid-level-ontology.Pipeline, transport.AirTransitway, head=owl.Bottom"}
+{"v_sub_concept": "airplane", "v_super_concept": "emergency vehicle", "label": 0, "rule": "body=Mid-level-ontology.Airplane, transport.EmergencyVehicle, head=owl.Bottom"}
+{"v_sub_concept": "crane", "v_super_concept": "cargo container", "label": 0, "rule": "body=Mid-level-ontology.Crane, transport.CargoContainer, head=owl.Bottom"}
+{"v_sub_concept": "road junction", "v_super_concept": "railway junction", "label": 0, "rule": "body=Mid-level-ontology.RoadJunction, transport.RailwayJunction, head=owl.Bottom"}
+{"v_sub_concept": "anchorage", "v_super_concept": "harbor", "label": 0, "rule": "body=transport.Anchorage, transport.Harbor, head=owl.Bottom"}
+{"v_sub_concept": "ice breaker ship", "v_super_concept": "motor hopper", "label": 0, "rule": "body=transport.IceBreakerShip, transport.MotorHopper, head=owl.Bottom"}
+{"v_sub_concept": "railroad track", "v_super_concept": "bulkhead", "label": 0, "rule": "body=Mid-level-ontology.RailroadTrack, transport.Bulkhead, head=owl.Bottom"}
+{"v_sub_concept": "cargo manifest", "v_super_concept": "certificate of registry", "label": 0, "rule": "body=transport.CargoManifest, transport.CertificateOfRegistry, head=owl.Bottom"}
+{"v_sub_concept": "drilling ship", "v_super_concept": "merchant marine ship", "label": 0, "rule": "body=transport.DrillingShip, transport.MerchantMarineShip, head=owl.Bottom"}
+{"v_sub_concept": "canal", "v_super_concept": "sea lane", "label": 0, "rule": "body=Mid-level-ontology.Canal, transport.SeaLane, head=owl.Bottom"}
+{"v_sub_concept": "railway junction", "v_super_concept": "waterway junction", "label": 0, "rule": "body=transport.RailwayJunction, transport.WaterwayJunction, head=owl.Bottom"}
+{"v_sub_concept": "transitway junction", "v_super_concept": "transit route", "label": 0, "rule": "body=Mid-level-ontology.TransitwayJunction, transport.TransitRoute, head=owl.Bottom"}
+{"v_sub_concept": "waterway", "v_super_concept": "ship berth", "label": 0, "rule": "body=Mid-level-ontology.Waterway, transport.ShipBerth, head=owl.Bottom"}
+{"v_sub_concept": "motor hopper", "v_super_concept": "passenger ship", "label": 0, "rule": "body=transport.MotorHopper, transport.PassengerShip, head=owl.Bottom"}
+{"v_sub_concept": "merchant marine ship", "v_super_concept": "motor hopper", "label": 0, "rule": "body=transport.MerchantMarineShip, transport.MotorHopper, head=owl.Bottom"}
+{"v_sub_concept": "train", "v_super_concept": "locomotive", "label": 0, "rule": "body=Mid-level-ontology.Train, transport.Locomotive, head=owl.Bottom"}
+{"v_sub_concept": "dromedary container", "v_super_concept": "flat rack container", "label": 0, "rule": "body=transport.DromedaryContainer, transport.FlatRackContainer, head=owl.Bottom"}
+{"v_sub_concept": "bill of lading", "v_super_concept": "cargo manifest", "label": 0, "rule": "body=transport.BillOfLading, transport.CargoManifest, head=owl.Bottom"}
+{"v_sub_concept": "crane ship", "v_super_concept": "research ship", "label": 0, "rule": "body=transport.CraneShip, transport.ResearchShip, head=owl.Bottom"}
+{"v_sub_concept": "railway", "v_super_concept": "bulkhead", "label": 0, "rule": "body=Mid-level-ontology.Railway, transport.Bulkhead, head=owl.Bottom"}
+{"v_sub_concept": "animal powered device", "v_super_concept": "human powered device", "label": 0, "rule": "body=Mid-level-ontology.AnimalPoweredDevice, transport.HumanPoweredDevice, head=owl.Bottom"}
+{"v_sub_concept": "aircraft", "v_super_concept": "crane", "label": 0, "rule": "body=Mid-level-ontology.Aircraft, Mid-level-ontology.Crane, head=owl.Bottom"}
+{"v_sub_concept": "something that dredger motor hopper", "v_super_concept": "flat rack container", "label": 0, "rule": "body=transport.Dredger, transport.MotorHopper, head=transport.FlatRackContainer"}
+{"v_sub_concept": "something that deep draft port city sea port", "v_super_concept": "head end car", "label": 0, "rule": "body=transport.DeepDraftPortCity, transport.SeaPort, head=transport.HeadEndCar"}
+{"v_sub_concept": "something that ice breaker ship offshore support ship", "v_super_concept": "short sea passenger ship", "label": 0, "rule": "body=transport.IceBreakerShip, transport.OffshoreSupportShip, head=transport.ShortSeaPassengerShip"}
+{"v_sub_concept": "something that merchant marine ship research ship", "v_super_concept": "flat rack container", "label": 0, "rule": "body=transport.MerchantMarineShip, transport.ResearchShip, head=transport.FlatRackContainer"}
+{"v_sub_concept": "something that railway transit terminal", "v_super_concept": "short sea passenger ship", "label": 0, "rule": "body=Mid-level-ontology.Railway, Mid-level-ontology.TransitTerminal, head=transport.ShortSeaPassengerShip"}
+{"v_sub_concept": "something that class i i railroad class i railroad", "v_super_concept": "short sea passenger ship", "label": 0, "rule": "body=transport.ClassIIRailroad, transport.ClassIRailroad, head=transport.ShortSeaPassengerShip"}
+{"v_sub_concept": "something that canal lock canal structure", "v_super_concept": "flat rack container", "label": 0, "rule": "body=transport.CanalLock, transport.CanalStructure, head=transport.FlatRackContainer"}
+{"v_sub_concept": "something that motor hopper offshore support ship", "v_super_concept": "open top railcar", "label": 0, "rule": "body=transport.MotorHopper, transport.OffshoreSupportShip, head=transport.OpenTopRailcar"}
+{"v_sub_concept": "something that dredger drilling ship", "v_super_concept": "short sea passenger ship", "label": 0, "rule": "body=transport.Dredger, transport.DrillingShip, head=transport.ShortSeaPassengerShip"}
+{"v_sub_concept": "something that air transitway one way transitway", "v_super_concept": "flat rack container", "label": 0, "rule": "body=transport.AirTransitway, transport.OneWayTransitway, head=transport.FlatRackContainer"}
+{"v_sub_concept": "something that canal lock gate vehicle wheel", "v_super_concept": "head end car", "label": 0, "rule": "body=transport.CanalLockGate, transport.VehicleWheel, head=transport.HeadEndCar"}
+{"v_sub_concept": "something that crane watercraft", "v_super_concept": "head end car", "label": 0, "rule": "body=Mid-level-ontology.Crane, Mid-level-ontology.Watercraft, head=transport.HeadEndCar"}
+{"v_sub_concept": "something that animal powered device axle", "v_super_concept": "open top railcar", "label": 0, "rule": "body=Mid-level-ontology.AnimalPoweredDevice, transport.Axle, head=transport.OpenTopRailcar"}
+{"v_sub_concept": "something that partial container ship roll on roll off cargo ship", "v_super_concept": "flat rack container", "label": 0, "rule": "body=transport.PartialContainerShip, transport.RollOnRollOffCargoShip, head=transport.FlatRackContainer"}
+{"v_sub_concept": "something that railroad track canal lock", "v_super_concept": "short sea passenger ship", "label": 0, "rule": "body=Mid-level-ontology.RailroadTrack, transport.CanalLock, head=transport.ShortSeaPassengerShip"}
+{"v_sub_concept": "something that tunnel single traffic lane", "v_super_concept": "flat rack container", "label": 0, "rule": "body=Mid-level-ontology.Tunnel, transport.SingleTrafficLane, head=transport.FlatRackContainer"}
+{"v_sub_concept": "something that offshore support ship offshore well production ship", "v_super_concept": "half height container", "label": 0, "rule": "body=transport.OffshoreSupportShip, transport.OffshoreWellProductionShip, head=transport.HalfHeightContainer"}
+{"v_sub_concept": "something that anchorage ship berth", "v_super_concept": "short sea passenger ship", "label": 0, "rule": "body=transport.Anchorage, transport.ShipBerth, head=transport.ShortSeaPassengerShip"}
+{"v_sub_concept": "something that airplane emergency vehicle", "v_super_concept": "short sea passenger ship", "label": 0, "rule": "body=Mid-level-ontology.Airplane, transport.EmergencyVehicle, head=transport.ShortSeaPassengerShip"}
+{"v_sub_concept": "something that anchorage harbor", "v_super_concept": "head end car", "label": 0, "rule": "body=transport.Anchorage, transport.Harbor, head=transport.HeadEndCar"}
+{"v_sub_concept": "something that drilling ship merchant marine ship", "v_super_concept": "short sea passenger ship", "label": 0, "rule": "body=transport.DrillingShip, transport.MerchantMarineShip, head=transport.ShortSeaPassengerShip"}
+{"v_sub_concept": "something that transitway junction transit route", "v_super_concept": "head end car", "label": 0, "rule": "body=Mid-level-ontology.TransitwayJunction, transport.TransitRoute, head=transport.HeadEndCar"}
+{"v_sub_concept": "something that merchant marine ship motor hopper", "v_super_concept": "half height container", "label": 0, "rule": "body=transport.MerchantMarineShip, transport.MotorHopper, head=transport.HalfHeightContainer"}
+{"v_sub_concept": "something that bill of lading cargo manifest", "v_super_concept": "open top railcar", "label": 0, "rule": "body=transport.BillOfLading, transport.CargoManifest, head=transport.OpenTopRailcar"}
+{"v_sub_concept": "something that crane ship research ship", "v_super_concept": "short sea passenger ship", "label": 0, "rule": "body=transport.CraneShip, transport.ResearchShip, head=transport.ShortSeaPassengerShip"}
+{"v_sub_concept": "something that railway bulkhead", "v_super_concept": "flat rack container", "label": 0, "rule": "body=Mid-level-ontology.Railway, transport.Bulkhead, head=transport.FlatRackContainer"}
+{"v_sub_concept": "something that animal powered device human powered device", "v_super_concept": "head end car", "label": 0, "rule": "body=Mid-level-ontology.AnimalPoweredDevice, transport.HumanPoweredDevice, head=transport.HeadEndCar"}
