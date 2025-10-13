@@ -133,6 +133,53 @@ This repository contains implementations of Graph Convolutional Networks (GCNs) 
 - Regularization: Dropout, gradient clipping, L2 normalization
 - Validation: Uses threshold selection for optimal F1 score
 
+**Script Organization** (Numbered by execution order):
+1. **`01_data_preprocessing.py`** - Data loading and preprocessing functions
+   - Loads graph data from train/test splits
+   - Creates node and relation dictionaries
+   - Handles unary and binary template triples
+   - Generates feature matrices (embeddings or analogy features)
+
+2. **`02_word_embedding.py`** - Word embedding utilities
+   - Processes entity names using Word2Vec embeddings
+   - Handles multi-word entity names with uppercase separation
+   - Generates 300-dimensional feature vectors
+
+3. **`03_layers.py`** - Neural network layer definitions
+   - RGCN layer implementations with basis decomposition
+   - Self-loop and dropout support
+   - Message passing and aggregation functions
+
+4. **`04_model.py`** - Base model architecture
+   - BaseRGCN class with modular layer construction
+   - Input, hidden, and output layer builders
+   - Feature initialization and forward pass
+
+5. **`05_utils.py`** - Utility functions
+   - Rule extraction and evaluation metrics
+   - Threshold selection for binary classification
+   - Dictionary reading and data processing helpers
+
+6. **`06_combined_pca_and_we.py`** - Feature combination utilities
+   - Combines PCA-reduced and word embedding features
+   - Rule combination and evaluation functions
+   - Multi-feature integration methods
+
+7. **`07_concatenated_feature_classify.py`** - Main GCN classification
+   - Primary implementation with concatenated features
+   - Cross-validation training and evaluation
+   - Similarity loss and regularization
+
+8. **`08_unary_classify.py`** - Alternative classification implementation
+   - Alternative approach to unary template prediction
+   - Different feature handling and model configuration
+   - Standalone classification pipeline
+
+9. **`09_all_data_used.py`** - Complete dataset evaluation
+   - Uses entire dataset without train/test splits
+   - Top-k rule prediction and evaluation
+   - Comprehensive rule discovery
+
 ### GCN Binary Prediction
 **Location**: `code/gcn/binary_predict/`
 
@@ -206,14 +253,20 @@ python combined_features.py
 
 ### GCN Models
 ```bash
-# Unary classification with GCN
-python unary_classify.py -d wine -f embedding
+# Unary classification with GCN (main implementation)
+python 07_concatenated_feature_classify.py -d wine -f embedding
+
+# Alternative unary classification
+python 08_unary_classify.py -d wine -f analogy
+
+# Complete dataset evaluation
+python 09_all_data_used.py -d wine -f embedding
+
+# Feature combination utilities
+python 06_combined_pca_and_we.py
 
 # Binary prediction with GCN
 python binary_predict.py -d wine -f analogy
-
-# Combined features
-python combined_pca_and_we.py
 ```
 
 ## Dataset Evaluation Framework
