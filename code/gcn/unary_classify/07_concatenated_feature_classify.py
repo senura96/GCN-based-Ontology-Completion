@@ -3,11 +3,11 @@ import argparse
 import numpy as np
 import torch
 import torch.nn.functional as F
-from layers import RGCNBasisLayer as RGCNLayer
-from model import BaseRGCN
-from utils import _select_threshold, find_rules_ut, metrics, find_same_etype
+from 03_layers import RGCNBasisLayer as RGCNLayer
+from 04_model import BaseRGCN
+from 05_utils import _select_threshold, find_rules_ut, metrics, find_same_etype
 import random
-from data_preprocessing import train_test_idx
+from 01_data_preprocessing import train_test_idx
 from itertools import combinations
 import warnings
 import os
