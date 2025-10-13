@@ -3,11 +3,11 @@ import argparse
 import numpy as np
 import torch
 import torch.nn.functional as F
-from 03_layers import RGCNBasisLayer as RGCNLayer
-from 04_model import BaseRGCN
-from 05_utils import find_rules_ut_all, find_same_etype
+from layers_3 import RGCNBasisLayer as RGCNLayer
+from model_4 import BaseRGCN
+from utils_5 import find_rules_ut_all, find_same_etype
 import random
-from 01_data_preprocessing import load_whole_data
+from data_preprocessing_1 import load_whole_data
 from itertools import combinations
 import warnings
 import os

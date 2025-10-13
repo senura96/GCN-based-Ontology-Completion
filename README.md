@@ -134,48 +134,48 @@ This repository contains implementations of Graph Convolutional Networks (GCNs) 
 - Validation: Uses threshold selection for optimal F1 score
 
 **Script Organization** (Numbered by execution order):
-1. **`01_data_preprocessing.py`** - Data loading and preprocessing functions
+1. **`data_preprocessing_1.py`** - Data loading and preprocessing functions
    - Loads graph data from train/test splits
    - Creates node and relation dictionaries
    - Handles unary and binary template triples
    - Generates feature matrices (embeddings or analogy features)
 
-2. **`02_word_embedding.py`** - Word embedding utilities
+2. **`word_embedding_2.py`** - Word embedding utilities
    - Processes entity names using Word2Vec embeddings
    - Handles multi-word entity names with uppercase separation
    - Generates 300-dimensional feature vectors
 
-3. **`03_layers.py`** - Neural network layer definitions
+3. **`layers_3.py`** - Neural network layer definitions
    - RGCN layer implementations with basis decomposition
    - Self-loop and dropout support
    - Message passing and aggregation functions
 
-4. **`04_model.py`** - Base model architecture
+4. **`model_4.py`** - Base model architecture
    - BaseRGCN class with modular layer construction
    - Input, hidden, and output layer builders
    - Feature initialization and forward pass
 
-5. **`05_utils.py`** - Utility functions
+5. **`utils_5.py`** - Utility functions
    - Rule extraction and evaluation metrics
    - Threshold selection for binary classification
    - Dictionary reading and data processing helpers
 
-6. **`06_combined_pca_and_we.py`** - Feature combination utilities
+6. **`combined_pca_and_we_6.py`** - Feature combination utilities
    - Combines PCA-reduced and word embedding features
    - Rule combination and evaluation functions
    - Multi-feature integration methods
 
-7. **`07_concatenated_feature_classify.py`** - Main GCN classification
+7. **`concatenated_feature_classify_7.py`** - Main GCN classification
    - Primary implementation with concatenated features
    - Cross-validation training and evaluation
    - Similarity loss and regularization
 
-8. **`08_unary_classify.py`** - Alternative classification implementation
+8. **`unary_classify_8.py`** - Alternative classification implementation
    - Alternative approach to unary template prediction
    - Different feature handling and model configuration
    - Standalone classification pipeline
 
-9. **`09_all_data_used.py`** - Complete dataset evaluation
+9. **`all_data_used_9.py`** - Complete dataset evaluation
    - Uses entire dataset without train/test splits
    - Top-k rule prediction and evaluation
    - Comprehensive rule discovery
@@ -254,16 +254,16 @@ python combined_features.py
 ### GCN Models
 ```bash
 # Unary classification with GCN (main implementation)
-python 07_concatenated_feature_classify.py -d wine -f embedding
+python concatenated_feature_classify_7.py -d wine -f embedding
 
 # Alternative unary classification
-python 08_unary_classify.py -d wine -f analogy
+python unary_classify_8.py -d wine -f analogy
 
 # Complete dataset evaluation
-python 09_all_data_used.py -d wine -f embedding
+python all_data_used_9.py -d wine -f embedding
 
 # Feature combination utilities
-python 06_combined_pca_and_we.py
+python combined_pca_and_we_6.py
 
 # Binary prediction with GCN
 python binary_predict.py -d wine -f analogy
