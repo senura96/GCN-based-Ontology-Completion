@@ -6,10 +6,33 @@ https://github.com/MichSchli/RelationPrediction
 """
 import numpy as np
 import torch
-import dgl
 from sklearn.metrics import f1_score
 from sklearn.preprocessing import label_binarize
 from collections import defaultdict
+
+# Try to import DGL with fallback
+try:
+    import dgl
+    DGL_AVAILABLE = True
+except ImportError as e:
+    print(f"Warning: DGL import failed: {e}")
+    print("DGL functionality will be limited")
+    DGL_AVAILABLE = False
+    # Create a mock DGL module for basic functionality
+    class MockDGL:
+        class DGLGraph:
+            def __init__(self):
+                self.nodes = []
+                self.edges = []
+            def add_nodes(self, num):
+                self.nodes = list(range(num))
+            def add_edges(self, src, dst):
+                self.edges = list(zip(src, dst))
+            def number_of_nodes(self):
+                return len(self.nodes)
+            def in_degrees(self, nodes):
+                return torch.zeros(len(nodes))
+    dgl = MockDGL()
 
 #######################################################################
 #

@@ -237,6 +237,25 @@ The split_types dataset provides hierarchical evaluation:
 - pandas
 - numpy
 
+## Script Execution Order
+
+The GCN scripts should be executed in the following logical order:
+
+### Foundation Scripts (Dependencies):
+1. `data_preprocessing_1.py` - Data preprocessing utilities
+2. `word_embedding_2.py` - Word embedding functions  
+3. `layers_3.py` - GCN layer definitions
+4. `model_4.py` - Base model classes
+5. `utils_5.py` - Utility functions
+
+### Main Classification Scripts (Generate Rule Files):
+6. `unary_classify_6.py` - Unary classification with GCN
+7. `concatenated_feature_classify_7.py` - Concatenated feature classification
+8. `all_data_used_8.py` - Complete dataset classification
+
+### Final Combination Script:
+9. `combined_pca_and_we_9.py` - Combine and evaluate results
+
 ## Usage
 
 ### Baseline Models

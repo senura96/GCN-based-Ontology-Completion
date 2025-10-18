@@ -1,4 +1,30 @@
-from dgl import DGLGraph
+# Handle DGL import with fallback
+DGL_AVAILABLE = False
+DGLGraph = None
+
+try:
+    from dgl import DGLGraph
+    DGL_AVAILABLE = True
+    print("✅ DGL import successful!")
+except ImportError as e:
+    print(f"❌ DGL import error: {e}")
+    print("DGL functionality will be limited. Please install compatible versions:")
+    print("pip install dgl torchdata")
+    DGL_AVAILABLE = False
+    
+    # Create a mock DGLGraph class for fallback
+    class DGLGraph:
+        def __init__(self, *args, **kwargs):
+            raise NotImplementedError("DGL not available - install dgl and torchdata")
+        
+        @classmethod
+        def add_nodes(cls, *args, **kwargs):
+            raise NotImplementedError("DGL not available")
+        
+        @classmethod
+        def add_edges(cls, *args, **kwargs):
+            raise NotImplementedError("DGL not available")
+
 import argparse
 import numpy as np
 import torch
@@ -59,6 +85,13 @@ def similar_loss(g, node_idx, logits, direction='in'):
 
 
 def main(args):
+    # Check if DGL is available
+    if not DGL_AVAILABLE:
+        print("❌ Cannot run GCN model without DGL. Please install compatible versions:")
+        print("pip install dgl torchdata")
+        print("Or try: conda install -c dglteam dgl")
+        return
+    
     fold = 3
 
     if not os.path.exists('result/'):
@@ -74,7 +107,7 @@ def main(args):
     output = str(args) + '\n'
     true_rules_out = ''
     pred_rules_out = ''
-    path = 'dataset/' + args.dataset + '/' + str(fold) + '_fold' + '/'
+    path = 'dataset/' + 'transport' + '/' + str(fold) + '_fold' + '/'
     for i in range(fold):
         num_node, edge_list, edge_src, edge_dst, edge_type, edge_norm, num_rel, train_idx, test_idx, train_label, test_label, node_features_we = train_test_idx(
             path, i, 'embedding', args.n_hidden)

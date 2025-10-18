@@ -1,6 +1,23 @@
 import torch
 import torch.nn as nn
-import dgl.function as fn
+
+# Handle DGL import with fallback
+try:
+    import dgl.function as fn
+    DGL_AVAILABLE = True
+except ImportError as e:
+    print(f"❌ DGL import error in layers_3: {e}")
+    DGL_AVAILABLE = False
+    
+    # Create a mock dgl.function module
+    class MockFunction:
+        def copy_u(self, *args, **kwargs):
+            raise NotImplementedError("DGL not available")
+        
+        def sum(self, *args, **kwargs):
+            raise NotImplementedError("DGL not available")
+    
+    fn = MockFunction()
 
 class RGCNLayer(nn.Module):
     def __init__(self, in_feat, out_feat, bias=None, activation=None,

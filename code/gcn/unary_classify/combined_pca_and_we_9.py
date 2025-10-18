@@ -60,7 +60,7 @@ def write_rules(rules, file_name):
 
 
 if __name__ == '__main__':
-    datasets = ['wine']  # 'wine', 'economy', 'transport', 'olympics'
+    datasets = ['transport']  # 'wine', 'economy', 'transport', 'olympics'
     fold = 10
 
     if not os.path.exists('./combined_rules'):

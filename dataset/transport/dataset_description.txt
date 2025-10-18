@@ -1,0 +1,219 @@
+# Transportation Ontology Dataset Description
+
+## Overview
+This dataset contains transportation domain ontology data for training and evaluating Graph Convolutional Network (GCN) based ontology completion models. The dataset is structured for 10-fold cross-validation experiments and includes both unary and binary template expressions for ontology completion tasks.
+
+## Dataset Structure
+
+### Directory Organization
+```
+transport/
+├── 10_fold/
+│   ├── train/          # Training data for each fold
+│   │   ├── s1/         # Split 1
+│   │   ├── s2/         # Split 2
+│   │   └── ...         # Splits 3-10
+│   └── test/           # Test data for each fold
+│       ├── s1/         # Split 1
+│       ├── s2/         # Split 2
+│       └── ...         # Splits 3-10
+```
+
+## File Descriptions
+
+### Core Data Files
+
+#### 1. predicate_label.tsv
+- **Format**: Tab-separated values (TSV)
+- **Columns**: id, nodes, label
+- **Content**: Entity-to-template mappings for training
+- **Example**:
+  ```
+  id  nodes  label
+  1   <http://reliant.teknowledge.com/DAML/Transportation.owl#SpecializedTankerShip>  TempateExpression{body=[?], head=[<http://reliant.teknowledge.com/DAML/Transportation.owl#CargoShip>]}
+  ```
+- **Purpose**: Primary training data linking entities to their ontological templates
+
+#### 2. ut.txt (Unary Templates)
+- **Format**: One template per line
+- **Content**: Unary template expressions
+- **Example**:
+  ```
+  TempateExpression{body=[?], head=[<http://reliant.teknowledge.com/DAML/Transportation.owl#LiquefiedGasTankerShip>]}
+  ```
+- **Purpose**: Defines unary relationships (entity belongs to concept)
+
+#### 3. bt.txt (Binary Templates)
+- **Format**: One template per line
+- **Content**: Binary template expressions
+- **Example**:
+  ```
+  TempateExpression{body=[?], head=[?, <http://reliant.teknowledge.com/DAML/Transportation.owl#TrafficLight>]}
+  ```
+- **Purpose**: Defines binary relationships (entity1 relates to entity2)
+
+#### 4. trainrules.txt / testrules.txt
+- **Format**: One rule per line
+- **Content**: Entity Relationship (ER) rules
+- **Purpose**: Training and testing rules for ontology completion
+
+### Template Expression Format
+
+#### Unary Templates
+```
+TempateExpression{body=[?], head=[<concept_uri>]}
+```
+- **body**: Contains variables (?) representing entities
+- **head**: Contains target concepts/classes
+- **Meaning**: "If something is a variable ?, then it belongs to this concept"
+
+#### Binary Templates
+```
+TempateExpression{body=[?], head=[?, <concept_uri>]}
+```
+- **body**: Contains variables representing entities
+- **head**: Contains variables and relationship concepts
+- **Meaning**: "If entity1 is ?, then it relates to entity2 (also ?) through this concept"
+
+### Training vs Test Files
+
+#### Training Files (train/sX/)
+- `predicate_label.tsv`: Entity-template mappings for training
+- `trainrules.txt`: Training rules
+- `ut.txt`: Unary templates
+- `bt.txt`: Binary templates
+- `binary_template_triples_bi.txt`: Binary template triples
+- `binary_template_triples_uni.txt`: Unary template triples
+
+#### Test Files (test/sX/)
+- `predicate_label.tsv`: Entity-template mappings for testing
+- `testrules.txt`: Test rules
+- `rule_template_unary.txt`: Unary rule templates
+- `rule_template_binary_bi.txt`: Binary rule templates (bi-directional)
+- `rule_template_binary_uni.txt`: Binary rule templates (uni-directional)
+- `ut.txt`: Unary templates
+- `bt.txt`: Binary templates
+
+## Ontology Sources
+
+### Primary Ontologies
+1. **DAML/Transportation.owl**: Core transportation domain ontology
+   - Vehicles: Ships, trains, cars, aircraft
+   - Infrastructure: Roads, bridges, ports, stations
+   - Systems: Public transport, logistics, traffic control
+
+2. **SUMO.owl**: Suggested Upper Merged Ontology
+   - General knowledge concepts
+   - High-level abstractions
+   - Common sense reasoning
+
+3. **Mid-level-ontology.owl**: Intermediate-level concepts
+   - Bridging high-level and domain-specific concepts
+   - Engineering and technical concepts
+
+### Domain Coverage
+- **Maritime Transport**: Ships, ports, navigation
+- **Rail Transport**: Trains, stations, rail infrastructure
+- **Road Transport**: Vehicles, roads, traffic systems
+- **Air Transport**: Aircraft, airports, air traffic control
+- **Logistics**: Cargo, containers, transportation companies
+- **Infrastructure**: Bridges, terminals, facilities
+
+## Data Statistics
+
+### Sample Statistics (Split 1)
+- **predicate_label.tsv**: ~799 entities with template mappings
+- **ut.txt**: ~1,218 unary template expressions
+- **bt.txt**: ~206 binary template expressions
+- **trainrules.txt**: ~1,154 training rules
+
+### Cross-Validation
+- **10-fold structure**: 10 training splits and 10 corresponding test splits
+- **Consistent format**: All splits follow the same file structure
+- **Balanced distribution**: Each split contains representative samples
+
+## Usage in GCN Models
+
+### Unary Classification
+- **Input**: Entity embeddings and graph structure
+- **Output**: Probability scores for unary template membership
+- **Goal**: Predict which entities belong to specific concepts
+
+### Binary Classification
+- **Input**: Entity pairs and relationship context
+- **Output**: Probability scores for binary relationships
+- **Goal**: Predict relationships between entity pairs
+
+### Template Learning
+- **Process**: Learn patterns from template expressions
+- **Application**: Generalize to new entities and relationships
+- **Evaluation**: Measure accuracy on held-out test data
+
+## File Format Notes
+
+### URI Format
+- Full URIs with namespace prefixes
+- Consistent naming conventions
+- Hierarchical concept organization
+
+### Variable Notation
+- `?`: Represents variable entities in templates
+- `owl:Nothing`: Represents empty/null concepts
+- Multiple variables: `[?, ?]` for binary relationships
+
+### Template Complexity
+- **Simple**: Single variable, single concept
+- **Complex**: Multiple variables, multiple concepts
+- **Hierarchical**: Nested concept relationships
+
+## Quality Assurance
+
+### Data Consistency
+- Consistent URI formatting across all files
+- Proper template expression syntax
+- Balanced positive/negative examples
+
+### Cross-Validation Integrity
+- Non-overlapping train/test splits
+- Consistent entity coverage across folds
+- Representative sampling of domain concepts
+
+## Research Applications
+
+### Ontology Completion
+- Predict missing concept memberships
+- Suggest new relationships
+- Expand existing ontologies
+
+### Knowledge Graph Enhancement
+- Add missing edges
+- Infer implicit relationships
+- Validate existing connections
+
+### Domain-Specific Reasoning
+- Transportation planning
+- Logistics optimization
+- Infrastructure analysis
+
+## Technical Requirements
+
+### Dependencies
+- Python 3.x
+- NumPy, Pandas for data processing
+- Gensim for word embeddings (optional)
+- PyTorch/DGL for GCN models
+
+### Memory Requirements
+- Moderate memory usage for 10-fold structure
+- Efficient loading with lazy evaluation
+- Scalable to larger ontology datasets
+
+## Citation and Usage
+
+This dataset is designed for research in:
+- Ontology completion
+- Knowledge graph embedding
+- Graph neural networks
+- Transportation domain modeling
+
+When using this dataset, please cite the original research paper and maintain the dataset structure for reproducibility.
