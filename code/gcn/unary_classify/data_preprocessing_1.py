@@ -78,7 +78,7 @@ def train_test_idx(path, fold, ftype, dim):
 
     # sort indices by destination
     edge_list = sorted(edge_list, key=lambda x: (x[1], x[0], x[2]))
-    edge_list = np.array(edge_list, dtype=np.int)
+    edge_list = np.array(edge_list, dtype=int)
 
     # unary templates (node labels)
     label_dict_file = train_path + '/unary_templates.dict'
@@ -302,7 +302,7 @@ def load_whole_data(path, ftype, dim):
         edge_list.append((n, n, 0))
 
     edge_list = sorted(edge_list, key=lambda x: (x[1], x[0], x[2]))
-    edge_list = np.array(edge_list, dtype=np.int)
+    edge_list = np.array(edge_list, dtype=int)
 
     # unary templates (node labels)
     label_dict_file = train_path + '/all_unary_templates.dict'

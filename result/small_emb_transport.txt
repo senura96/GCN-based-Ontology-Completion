@@ -1,0 +1,12 @@
+Namespace(dropout=0.5, n_hidden=32, gpu=-1, lr=0.001, n_bases=-1, n_layers=3, n_epochs=20, dataset='transport', l2norm=0, grad_norm=1.0, sigma=0.1, beta=0.1, validation=True, bfs_level=0)
+Test Precision: 0.5025 | Test Recall: 0.5025 | Test F1: 0.5025 
+Test Precision: 0.5000 | Test Recall: 0.5000 | Test F1: 0.5000 
+Test Precision: 0.5015 | Test Recall: 0.5015 | Test F1: 0.5015 
+Test Precision: 0.4770 | Test Recall: 0.4770 | Test F1: 0.4770 
+Test Precision: 0.5120 | Test Recall: 0.5120 | Test F1: 0.5120 
+Test Precision: 0.5200 | Test Recall: 0.5200 | Test F1: 0.5200 
+Test Precision: 0.5055 | Test Recall: 0.5055 | Test F1: 0.5055 
+Test Precision: 0.4825 | Test Recall: 0.4825 | Test F1: 0.4825 
+Test Precision: 0.5150 | Test Recall: 0.5150 | Test F1: 0.5150 
+Test Precision: 0.4945 | Test Recall: 0.4945 | Test F1: 0.4945 
+Mean values over 10 fold: Precision: 0.5010 | Recall: 0.5010 | F1: 0.5010
