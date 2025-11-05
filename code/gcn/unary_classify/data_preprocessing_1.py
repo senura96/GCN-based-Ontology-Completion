@@ -107,6 +107,9 @@ def train_test_idx(path, fold, ftype, dim):
         f.write(label_id)
         f.close()
 
+
+    # Game Starts Here
+
     num_node = len(nodes_dict)
     num_rel = len(relation_dict) + 1
     train_labels = sp.lil_matrix((num_node, len(label_dict)))
